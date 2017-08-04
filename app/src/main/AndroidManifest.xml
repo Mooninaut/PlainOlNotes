@@ -19,10 +19,10 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        
+
         <provider
-            android:authorities="com.example.clement.plainolnotes.notesprovider"
             android:name=".NotesProvider"
+            android:authorities="com.example.clement.plainolnotes.notesprovider"
             android:exported="false"/>
     </application>
 
